@@ -34,7 +34,7 @@ function AddDataForm(props) {
     //     description: description === "" ? "No description" : description,
     //   },
     // ]);
-    let addData = await fetch(`${import.meta.env.BACKEND_URL}/transactionLog/addData`, {
+    let addData = await fetch(`${import.meta.env.VITE_BACKEND_URL}/transactionLog/addData`, {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ description, selected, amount }),

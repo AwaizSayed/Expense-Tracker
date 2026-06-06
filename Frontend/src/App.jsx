@@ -38,7 +38,7 @@ function App() {
   async function getData() {
     // setProgress(0);
     const fetchBackendData = await fetch(
-      `${import.meta.env.BACKEND_URL}/transactionLog/getData?currentPage=${currentPage}`,
+      `${import.meta.env.VITE_BACKEND_URL}/transactionLog/getData?currentPage=${currentPage}`,
     );
     // setProgress(50);
     const backendData = await fetchBackendData.json();

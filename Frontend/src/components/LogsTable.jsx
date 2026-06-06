@@ -187,7 +187,7 @@ function LogsTable(props) {
   async function deleteData(id) {
     // console.log(id);
     const deletedData = await fetch(
-      `${import.meta.env.BACKEND_URL}/transactionLog/deleteData`,
+      `${import.meta.env.VITE_BACKEND_URL}/transactionLog/deleteData`,
       {
         method: "DELETE",
         headers: { "content-type": "application/json" },
