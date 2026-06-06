@@ -19,7 +19,7 @@ function EditFormData(props) {
     ];
     const id = props.editData._id;
     const updateBackendData = await fetch(
-      `${import.meta.env.BACKEND_URL}/transactionLog/updateData`,
+      `${import.meta.env.VITE_BACKEND_URL}/transactionLog/updateData`,
       {
         method: "PUT",
         headers: { "content-type": "application/json" },
