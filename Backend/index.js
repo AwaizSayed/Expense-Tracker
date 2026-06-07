@@ -7,18 +7,17 @@ const transactionLogRoute = require("./routers/transactionLogRoute");
 app.use(express.json());
 dotenv.config();
 
+async function connectIt() {
+  await mongoose
+    .connect(process.env.MONGO_URL)
+    .then((value) => console.log("database Connected"))
+    .catch((err) => console.log(err));
+}
+connectIt();
+
 app.use(cors({ origin: [`${process.env.FRONTEND_URL}`] }));
 
 app.use("/transactionLog", transactionLogRoute);
-
-mongoose
-  .connect(process.env.MONGO_URL)
-  .then((value) => {
-    console.log("database Connected Successfully");
-  })
-  .catch((err) => {
-    console.log(err);
-  });
 
 app.get("/", (req, res) => {
   res.send("Everthing is working!");
