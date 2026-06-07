@@ -30,13 +30,13 @@ The application provides a clean and intuitive interface for managing transactio
 
 ## 🎯 Key Features
 
-- Add new transactions
-- Delete transactions
+- Add and delete transactions
 - Track income and expenses
-- View transaction history
 - Real-time balance calculation
-- Pagination support
-- Responsive user interface
+- Transaction history with pagination
+- Responsive UI using Tailwind CSS and Shadcn UI
+- REST API integration
+- MongoDB Atlas database integration
 - Full-stack MERN architecture
 
 ---
@@ -97,7 +97,6 @@ The application automatically calculates and displays total income, total expens
 - JavaScript (ES6+)
 - Tailwind CSS
 - Shadcn UI
-- jsx
 - HTML5
 - CSS3
 
@@ -122,7 +121,7 @@ The application automatically calculates and displays total income, total expens
 ### Frontend Dependencies
 
 - react
-- shadcn UI
+- shadcn/ui
 - tailwindcss
 
 ### Backend Dependencies
@@ -143,7 +142,7 @@ Expense-Tracker/
 │   ├── controllers/          # Business logic
 │   ├── models/               # Mongoose schemas
 │   ├── routers/              # API routes
-│   ├── index.js             # Express server
+│   ├── index.js              # Express server
 │   └── vercel.json           # Vercel backend config
 │
 ├── Frontend/
@@ -166,7 +165,7 @@ Expense-Tracker/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/AwaizSayed/Expense-Tracker
+git clone https://github.com/AwaizSayed/Expense-Tracker.git
 ```
 
 ### Backend Setup
