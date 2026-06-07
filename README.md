@@ -1,4 +1,3 @@
-
 # 💰 Expense Tracker
 
 A full-stack Expense Tracker application built using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). The application helps users manage their finances by tracking income and expenses, maintaining transaction history, and calculating the remaining balance in real time.
@@ -7,12 +6,12 @@ A full-stack Expense Tracker application built using the MERN Stack (MongoDB, Ex
 
 ## 🌐 Live Demo
 
-### Project Link
+### 🚀 Live Application:
 
 https://expense-tracker-mh9i.vercel.app
 
-
 ---
+
 ## 📌 Overview
 
 Expense Tracker is designed to simplify personal finance management by allowing users to record transactions, monitor their spending habits, and keep track of their overall financial status.
@@ -20,11 +19,13 @@ Expense Tracker is designed to simplify personal finance management by allowing 
 The application provides a clean and intuitive interface for managing transactions while maintaining accurate records of income, expenses, and available balance.
 
 ---
+
 ## 🎬 Project Demo
 
 [Add GIF Demo Here]
 
 ---
+
 ## 📸 Screenshots & User Walkthrough
 
 ### Step 1: Open the Application
@@ -71,50 +72,53 @@ Description:
 The application automatically calculates and displays total income, total expenses, and remaining balance.
 
 ---
+
 ## 🛠️ Tech Stack
 
 ### Frontend
 
-* React.js
-* Vite
-* JavaScript (ES6+)
-* Tailwind CSS
-* Shadcn UI
-* jsx
-* HTML5
-* CSS3
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- Shadcn UI
+- jsx
+- HTML5
+- CSS3
 
 ### Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
 ### Database
 
-* MongoDB Atlas
-* Mongoose
+- MongoDB Atlas
+- Mongoose
 
 ### Deployment
 
-* Vercel
+- Vercel
 
 ---
+
 ## 📦 Libraries & Dependencies
 
 ### Frontend Dependencies
 
-* react
-* shadcn UI
-* tailwindcss
+- react
+- shadcn UI
+- tailwindcss
 
 ### Backend Dependencies
 
-* express
-* mongoose
-* cors
-* dotenv
+- express
+- mongoose
+- cors
+- dotenv
 
 ---
+
 ## ⚙️ Installation & Execution
 
 ### Clone Repository
@@ -155,18 +159,20 @@ VITE_BACKEND_URL=
 ```
 
 ---
+
 ## 🎯 Key Features
 
-* Add new transactions
-* Delete transactions
-* Track income and expenses
-* View transaction history
-* Real-time balance calculation
-* Pagination support
-* Responsive user interface
-* Full-stack MERN architecture
+- Add new transactions
+- Delete transactions
+- Track income and expenses
+- View transaction history
+- Real-time balance calculation
+- Pagination support
+- Responsive user interface
+- Full-stack MERN architecture
 
 ---
+
 ## 👨‍💻 Author
 
 **Awaiz Sayed**
