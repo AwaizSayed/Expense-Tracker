@@ -10,6 +10,8 @@ A full-stack Expense Tracker application built using the MERN Stack (MongoDB, Ex
 
 https://expense-tracker-mh9i.vercel.app
 
+⚠️ **Important:** The backend is hosted on Vercel's free serverless tier. The first request after a period of inactivity may take a few seconds to load due to a cold start. Please allow a moment for the application to initialize.
+
 ---
 
 ## 📌 Overview
@@ -23,6 +25,19 @@ The application provides a clean and intuitive interface for managing transactio
 ## 🎬 Project Demo
 
 [Add GIF Demo Here]
+
+---
+
+## 🎯 Key Features
+
+- Add new transactions
+- Delete transactions
+- Track income and expenses
+- View transaction history
+- Real-time balance calculation
+- Pagination support
+- Responsive user interface
+- Full-stack MERN architecture
 
 ---
 
@@ -119,6 +134,33 @@ The application automatically calculates and displays total income, total expens
 
 ---
 
+## 📂 Project Structure
+
+```plaintext
+Expense-Tracker/
+│
+├── Backend/
+│   ├── controllers/          # Business logic
+│   ├── models/               # Mongoose schemas
+│   ├── routers/              # API routes
+│   ├── index.js             # Express server
+│   └── vercel.json           # Vercel backend config
+│
+├── Frontend/
+│   ├── src/
+│   │   ├── Components/       # Reusable UI components
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
 ## ⚙️ Installation & Execution
 
 ### Clone Repository
@@ -157,19 +199,6 @@ Frontend `.env`
 ```env
 VITE_BACKEND_URL=
 ```
-
----
-
-## 🎯 Key Features
-
-- Add new transactions
-- Delete transactions
-- Track income and expenses
-- View transaction history
-- Real-time balance calculation
-- Pagination support
-- Responsive user interface
-- Full-stack MERN architecture
 
 ---
 
